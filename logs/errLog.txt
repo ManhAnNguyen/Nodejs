@@ -1,2 +1,7 @@
 20220505	 09:11:48	11e51997-1895-4c49-bf85-9789375cf6c3	Error : Not allowed by CORS
 20220505	 09:12:41	2c48f4ab-62c8-4759-a946-e2c6bb026a52	Error : Not allowed by CORS
+20220505	 11:59:37	df26d685-7779-4157-b6c8-e3dd13bb0de7	TypeError : req.json is not a function
+20220505	 11:59:45	81cf9b77-8675-409a-800d-22568963e385	TypeError : req.json is not a function
+20220505	 11:59:47	71d23b0e-cdb0-459e-99fa-ac0b8a8421db	TypeError : req.json is not a function
+20220505	 11:59:48	565ceee8-d9ac-4872-9c27-810670a55480	TypeError : req.json is not a function
+20220505	 11:59:50	0419e1c6-f0c4-4a12-a91a-a880897aca47	TypeError : req.json is not a function
