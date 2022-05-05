@@ -5,29 +5,14 @@ const cors = require("cors");
 const PORT = process.env.PORT || 3500;
 const { logger } = require("./middleware/logEvent");
 const errorHandler = require("./middleware/errorHnadle");
+const corsOptions = require("./config/corsOptions");
 //custom middle logger
 app.use(logger);
 
 //cross origin resource sharing
-const whitelist = [
-  "https://www.google.com/",
-  "https://127.0.0.1:5500",
-  "http://localhost:3500",
-];
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  optionsSuccessStatus: 200,
-};
+
 app.use(cors(corsOptions));
 
-// built in middleware to handle urlencoded data
-// in other words, form data
 // 'content-type' : application/x-www-form-urlencoded
 
 app.use(express.urlencoded({ extended: false }));
@@ -36,11 +21,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 //serve static files
 app.use("/", express.static(path.join(__dirname, "/public")));
-app.use("/subdir", express.static(path.join(__dirname, "/public")));
-
 //routes
 app.use("/", require("./routes/root"));
-app.use("/subdir", require("./routes/subdir"));
 app.use("/employees", require("./routes/api/employees"));
 
 app.all("*", (req, res) => {

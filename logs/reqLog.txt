@@ -58,3 +58,12 @@
 20220505	 11:59:48	699ff534-5cd7-4d8e-97f0-e71f3004c701	POST	undefined	/employees/?id=1
 20220505	 11:59:50	6eccc9db-4754-456e-b412-0c33cf87f702	POST	undefined	/employees/?id=1
 20220505	 12:00:49	128b5b50-ea00-4afb-a964-779adbb80ade	GET	undefined	/employees/?id=1
+20220505	 13:34:44	34e724d9-8724-40a0-839e-7af78c669adc	GET	undefined	/employees/1
+20220505	 13:52:49	5d2c2b19-ccf1-4893-9e37-d673ef86738d	GET	undefined	/new-page.html
+20220505	 13:52:49	b0109ffa-3181-43f9-bafe-8c04786e6d21	GET	undefined	/css/style.css
+20220505	 13:52:49	dbb2372f-77ee-4f44-968c-8c453eba7bb5	GET	undefined	/img/img1.jpeg
+20220505	 13:52:53	b2e49771-fda3-4c6a-9a11-acb6a9efe732	GET	undefined	/employees/1
+20220505	 14:11:03	e8af5b0b-54fa-4cbe-9aa8-db4f3f2da8d5	POST	undefined	/employees
+20220505	 14:11:29	a2060a66-d7c5-4d83-9a6a-f4ff6b328d0e	POST	undefined	/employees
+20220505	 14:11:45	5390ca0a-e844-4752-9dac-2cc0f4d99545	GET	undefined	/employees
+20220505	 14:12:50	f652275b-4e77-48d7-ae0c-392b94b035d6	GET	undefined	/employees
